@@ -1,0 +1,76 @@
+{
+  "clientes": [
+    {
+      "usuario": "Graham",
+      "nombre": "Leanne Graham",
+      "pedidos": [
+        {
+          "cliente": "Graham",
+          "numpedido": "1",
+          "fecha": "1/03/2021",
+          "total": "12",
+          "Lineas_Pedido": [
+            {
+              "cliente": "Graham",
+              "pedido": 1,
+              "producto": 1,
+              "precio": 3,
+              "cantidad": 2
+            },
+            {
+              "cliente": "Graham",
+              "pedido": 2,
+              "producto": 2,
+              "precio": 6,
+              "cantidad": 1
+            }
+          ]
+        },
+        {
+          "cliente": "Graham",
+          "numpedido": "2",
+          "fecha": "6/03/2021",
+          "total": "21",
+          "Lineas_Pedido": [
+            {
+              "cliente": "Graham",
+              "pedido": 3,
+              "producto": 3,
+              "precio": 6,
+              "cantidad": 2
+            },
+            {
+              "cliente": "Graham",
+              "pedido": 4,
+              "producto": 1,
+              "precio": 3,
+              "cantidad": 3
+            }
+          ]
+        }
+      ],
+      "producto": [
+        {
+          "id": 1,
+          "nombre": "Leanne Graham",
+          "Lineas_Pedido": [
+            {
+              "cliente": "Graham",
+              "pedido": 1,
+              "producto": 1,
+              "precio": 3,
+              "cantidad": 2
+            },
+            {
+              "cliente": "Graham",
+              "pedido": 4,
+              "producto": 1,
+              "precio": 3,
+              "cantidad": 3
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
